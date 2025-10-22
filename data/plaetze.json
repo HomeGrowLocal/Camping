@@ -1,28 +1,30 @@
 [
   {
-    "name": "Camping Hellas",
-    "ort": "Volos",
-    "region": "Thessalien",
+    "name": "Camping Gythion Bay",
     "typ": "Campingplatz",
-    "lat": 39.375,
-    "lon": 22.953,
+    "ort": "Gythio",
+    "region": "Peloponnes",
+    "adresse": "232 00 Gythio, Griechenland",
     "bewertung": 4.5,
-    "adresse": "Kato Gatzea, Volos",
-    "telefon": "+30 24230 12345",
-    "website": "http://campinghellas.gr",
-    "email": "info@campinghellas.gr"
+    "koordinaten": [
+      36.757,
+      22.567
+    ],
+    "webseite": "https://www.gythionbay.gr",
+    "telefon": "+30 27330 22211"
   },
   {
-    "name": "Stellplatz Kreta",
-    "ort": "Chania",
-    "region": "Kreta",
+    "name": "Camperstop Plataria",
     "typ": "Stellplatz",
-    "lat": 35.513,
-    "lon": 24.019,
+    "ort": "Plataria",
+    "region": "Epirus",
+    "adresse": "46100 Plataria, Griechenland",
     "bewertung": 4.2,
-    "adresse": "Chania Zentrum",
-    "telefon": "",
-    "website": "",
-    "email": ""
+    "koordinaten": [
+      39.466,
+      20.267
+    ],
+    "webseite": "https://www.camperstop-plataria.gr",
+    "telefon": "+30 26650 12345"
   }
 ]
