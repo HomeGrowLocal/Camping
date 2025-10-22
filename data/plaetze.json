@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Camping Hellas",
+    "ort": "Volos",
+    "region": "Thessalien",
+    "typ": "Campingplatz",
+    "lat": 39.375,
+    "lon": 22.953,
+    "bewertung": 4.5,
+    "adresse": "Kato Gatzea, Volos",
+    "telefon": "+30 24230 12345",
+    "website": "http://campinghellas.gr",
+    "email": "info@campinghellas.gr"
+  },
+  {
+    "name": "Stellplatz Kreta",
+    "ort": "Chania",
+    "region": "Kreta",
+    "typ": "Stellplatz",
+    "lat": 35.513,
+    "lon": 24.019,
+    "bewertung": 4.2,
+    "adresse": "Chania Zentrum",
+    "telefon": "",
+    "website": "",
+    "email": ""
+  }
+]
