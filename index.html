@@ -2,16 +2,34 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Campingkarte Griechenland</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <meta charset="utf-8">
+  <title>Campingkarte Griechenland</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>#map { height: 100vh; }</style>
 </head>
 <body>
-    <h1>Campingkarte Griechenland</h1>
-    <input type="text" id="search" placeholder="Suche nach Name, Ort oder Region">
-    <div id="map" style="height: 600px;"></div>
-    <script src="script.js"></script>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([39.0, 22.0], 6);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    fetch('data/plaetze.json')
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(p => {
+          const color = p.typ === 'Campingplatz' ? 'green' : 'blue';
+          const marker = L.circleMarker(p.koordinaten, {
+            radius: 8,
+            color: color,
+            fillColor: color,
+            fillOpacity: 0.8
+          }).addTo(map);
+          marker.bindPopup(`<b>${p.name}</b><br>${p.ort}<br>Bewertung: ${p.bewertung}`);
+        });
+      });
+  </script>
 </body>
 </html>

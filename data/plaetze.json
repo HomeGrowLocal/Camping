@@ -1,30 +1,86 @@
 [
   {
-    "name": "Camping Gythion Bay",
+    "name": "Camping Hellas",
     "typ": "Campingplatz",
-    "ort": "Gythio",
-    "region": "Peloponnes",
-    "adresse": "232 00 Gythio, Griechenland",
-    "bewertung": 4.5,
+    "ort": "Thessaloniki",
+    "region": "Zentralmakedonien",
+    "adresse": "EO Thessalonikis Peraias 60, Thessaloniki",
+    "bewertung": 4.3,
     "koordinaten": [
-      36.757,
-      22.567
+      40.5195,
+      22.9736
     ],
-    "webseite": "https://www.gythionbay.gr",
-    "telefon": "+30 27330 22211"
+    "website": "http://www.campinghellas.gr",
+    "telefon": "+30 2310 476 820"
   },
   {
-    "name": "Camperstop Plataria",
+    "name": "Thalatta Kalamitsi Village Camp",
+    "typ": "Campingplatz",
+    "ort": "Kalamitsi",
+    "region": "Chalkidiki",
+    "adresse": "Kalamitsi, Chalkidiki",
+    "bewertung": 4.6,
+    "koordinaten": [
+      39.9812,
+      23.9834
+    ],
+    "website": "https://thalattacamp.gr",
+    "telefon": "+30 23750 41400"
+  },
+  {
+    "name": "Creta Camping",
+    "typ": "Campingplatz",
+    "ort": "Heraklion",
+    "region": "Kreta",
+    "adresse": "Karteros, Heraklion",
+    "bewertung": 4.1,
+    "koordinaten": [
+      35.3333,
+      25.1578
+    ],
+    "website": "http://www.cretacamping.gr",
+    "telefon": "+30 2810 381 602"
+  },
+  {
+    "name": "Far Out Camping",
+    "typ": "Campingplatz",
+    "ort": "Ios",
+    "region": "Kykladen",
+    "adresse": "Mylopotas Beach, Ios",
+    "bewertung": 4.0,
+    "koordinaten": [
+      36.7167,
+      25.2833
+    ],
+    "website": "http://www.faroutclub.com",
+    "telefon": "+30 22860 92025"
+  },
+  {
+    "name": "Stellplatz Korinth",
     "typ": "Stellplatz",
-    "ort": "Plataria",
+    "ort": "Korinth",
+    "region": "Peloponnes",
+    "adresse": "Korinth Marina",
+    "bewertung": 3.8,
+    "koordinaten": [
+      37.94,
+      22.9333
+    ],
+    "website": "",
+    "telefon": ""
+  },
+  {
+    "name": "Stellplatz Igoumenitsa",
+    "typ": "Stellplatz",
+    "ort": "Igoumenitsa",
     "region": "Epirus",
-    "adresse": "46100 Plataria, Griechenland",
+    "adresse": "Hafenstraße, Igoumenitsa",
     "bewertung": 4.2,
     "koordinaten": [
-      39.466,
-      20.267
+      39.5,
+      20.2667
     ],
-    "webseite": "https://www.camperstop-plataria.gr",
-    "telefon": "+30 26650 12345"
+    "website": "",
+    "telefon": ""
   }
 ]
